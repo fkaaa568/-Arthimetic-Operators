@@ -17,29 +17,31 @@ println!("The number of division is :{}",division_of_number(Num1,Num2));
 
 }
 
-            //Q1//
+            //For Addition//
 
 fn addition_of_number(Num1:i32,Num2:i32)->i32{
     let mut sum:i32;
     sum = Num1+Num2;
     sum
 }
-                //for subraction//
+                //For Subraction//
 
 fn subtraction_of_number(Num1:i32,Num2:i32)->i32{
     let mut sum:i32;
     sum = Num1-Num2;
     sum
 }
-                //for multiplication
+                //for Multiplication
 fn multiplication_of_number(Num1:i32,Num2:i32)->i32{
     let mut sum:i32;
     sum = Num1*Num2;
     sum
 }
 
+              //For Devision//
+
 fn division_of_number(Num1:i32,Num2:i32)->i32{
     let mut sum:i32;
-    sum = Num1-Num2;
+    sum = Num1/Num2;
     sum
 }
